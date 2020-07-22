@@ -1,0 +1,167 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 100px;
+}
+
+/*style navbar*/
+.navbar-light .navbar-brand{
+  font-size: 1.8em;
+}
+.bg-light{
+  background: #fff !important;
+ 
+}
+.navbar-light .navbar-toggler{
+  outline: none;
+  border: none;
+  color: #000;
+}
+.nav-link:hover{
+  transform: scale(1.1);
+}
+/*style form*/
+.btn{
+  border-radius: 10px;
+}
+.form-btn{
+  bottom: 3px;
+  right: 3px;
+  height: 48px;
+  width: 85px;
+  background: #57B0E2;
+  border: none;
+}
+.form-control{
+  background: #F2F2F2;
+  height: 54px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+}
+.form-control:focus{
+  background: #F2F2F2;
+  border: none;
+  outline: none;
+}
+/*style card*/
+.services{
+  margin-top: 100px;
+}
+.card{
+  border: none;
+  -webkit-transition: 0.4s;
+transition: 0.4s;
+border-radius: 12px;
+}
+.card:hover{
+  box-shadow: 3px 3px 8px #aaa;
+  cursor: pointer;
+}
+.icon{
+  padding: 12px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  color: #fff;
+}
+.edit{
+  background: #57b0e2;
+}
+.unfold{
+  background: #68C690;
+  transform: rotate(90deg);
+}
+.storage{
+  background: #F18989;
+}
+.btn-light{
+  background: #E0E0E0;
+}
+.card:hover .btn{
+  background: #57B0E2;
+  color: #fff;
+}
+/*style our works*/
+.figure img{
+  border-radius: 12px;
+}
+.figure h5{
+  color: #000;
+}
+/*style ourwork*/
+.our-team h5{
+  font-size: 1em;
+  color: #F18989;
+}
+.our-team .team-img{
+  width: 48%;
+  margin: 2%;
+}
+.our-team .team-img img{
+  border-radius: 12px;
+  
+}
+
+/* sty;e testimonials*/
+.testimonials q{
+  font-weight: 700;
+  font-size: 1.3em;
+}
+.testimonials .media h5{
+  font-size: 1em;
+}
+.testimonials .media-body{
+  font-size: 0.9em;
+}
+.testimonials .media img{
+  width: 64px;
+}
+/* style footer*/
+.footer{
+  margin-top: 100px;
+  background: #100E1D;
+  color: #fff;
+}
+.footer ul{
+  list-style: none;
+  padding-left: 0;
+}
+.footer ul li{
+  padding: 8px 0;
+}
+.footer a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer .logo{
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+@media (max-width:576px){
+ 
+  h1{
+    font-size: 1.4em;
+    line-height: 1.4;
+  }
+  h2{
+    font-size: 1.3em;
+    line-height: 1.4;
+  }
+p{
+    font-size: 0.9em!important;
+  }
+  .testimonials q{
+    font-size: 1.1em;
+  }
+}
